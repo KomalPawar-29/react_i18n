@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import I18n from './../../utils/I18n';
 import "./Home.css";
 
@@ -7,8 +7,8 @@ function Home() {
     const usersCount = 25;
 
     return (
-        <div>
-            <h1>{I18n("welcomeMessage")}</h1>
+        <div className='container'>
+            <h1>{I18n( "welcomeMessage")}</h1>
 
             <p>{I18n("normalMessage")}</p>
 
@@ -24,7 +24,7 @@ function Home() {
             }}>
                 <option value="mr">Marathi</option>
                 <option value="hi">Hindi</option>
-                <option value="eg">English</option>
+                <option value="en">English</option>
             </select>
 
             <p>
