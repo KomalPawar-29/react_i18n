@@ -9,7 +9,7 @@
     "mr":{
         "welcomeMessage": "स्वागत आहे !",
         "normalMessage": "आशा आहे की तुम्हाला React शिकन्यात मजा येईल.",
-        "greetingMessage": "आपला दिवस चंगला जावो.",
+        "greetingMessage": "आपला दिवस चांगला जावो.",
         "endMessage": "आम्ही React मध्ये i18n चा वापर कसा करायचा ते शिकलो.",
         "usersStateMessage": "या session मध्ये <studentCount> विद्यार्थी शिकत आहेत"
     },
